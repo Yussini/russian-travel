@@ -1,0 +1,12 @@
+.list-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 690px;
+  height: 90px;
+  font-size: 12px;
+  line-height: 1.5;
+}

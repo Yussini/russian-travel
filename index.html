@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
 
@@ -17,10 +17,10 @@
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип России">
       <ul class="list-links">
         <li class="list-links__item">
-          <a class="list-links__link link-hover" href="#">Ru</a>
+          <a class="list-links__link link-hover list-links__link_active" href="#">Ru</a>
         </li>
         <li class="list-links__item">
-          <a class="list-links__link" href="#">En</a>
+          <a class="list-links__link link-hover" href="#">En</a>
         </li>
       </ul>
     </header>
@@ -113,7 +113,7 @@
           <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="place__paragraphs">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от
-              которой на юг —
+              которой на юг — <br>
               тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
             <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического
               фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об
@@ -179,9 +179,13 @@
       </section>
 
       <section class="cover">
-        <h2 class="cover__title">До Байкала «на собаках»</h2>
-        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+        <a class="cover__link-image" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <div class="cover__text">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
+        </div>
+        </a>
       </section>
     </main>
 
@@ -195,7 +199,7 @@
         <a class='footer__link link-hover' href="https://calendar.yandex.ru" target="blank">Календарь</a>
         <a class='footer__link link-hover' href="https://travel.yandex.ru" target="blank">Путешествия</a>
       </nav>
-      <p class="footer__author">&copy;2022. Абдалов Юсиф</p>
+      <p class="footer__author">&copy; 2022. Абдалов Юсиф</p>
     </footer>
   </div>
 </body>
