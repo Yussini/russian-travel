@@ -3,6 +3,13 @@
   justify-self: start;
   margin: 0;
   padding: 0;
-  width: 456px;
+  max-width: 456px;
+  width: 100%;
   height: 46px;
+}
+
+@media screen and (max-width: 320px){
+  .place__website{
+    margin-left: 16px;
+  }
 }

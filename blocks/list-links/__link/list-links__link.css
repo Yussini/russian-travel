@@ -5,3 +5,15 @@
   text-decoration: none;
   color: #fff;
 }
+
+.list-links__link:first-of-type{
+  margin-right: 18px;
+}
+
+@media screen and (max-width:320px) {
+  .list-links__link {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.11;
+  }
+}
