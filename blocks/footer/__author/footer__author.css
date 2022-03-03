@@ -6,3 +6,10 @@
   max-width: 186px;
   margin: 0;
 }
+
+@media screen and (max-width: 425px){
+  .footer__author{
+    line-height: 1;
+    text-align: start;
+  }
+}

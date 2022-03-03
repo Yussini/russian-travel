@@ -8,7 +8,7 @@
   height: 28px;
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 425px) {
   .list-links {
     max-width: 62px;
     height: 20px;

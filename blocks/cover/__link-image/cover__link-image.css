@@ -40,3 +40,9 @@
     max-height: 480px;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .cover__link-image{
+    max-height: 200px;
+  }
+}
