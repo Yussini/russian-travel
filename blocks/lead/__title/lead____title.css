@@ -9,6 +9,24 @@
   margin: auto;
 }
 
+@media screen and (max-width: 700px) and (min-width: 603px) {
+  .lead__title {
+    font-size: 83px;  
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (max-width:602px) and (min-width:587px) {
+  .lead__title {
+    font-size: 53px;
+  }
+}
+
+@media screen and (max-width: 586px) and (min-width: 426px){
+ .lead__title {
+    font-size: 50px;
+ }
+}
 @media screen and (max-width: 425px) {
   .lead__title {
     max-width: 720px;
